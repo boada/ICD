@@ -1,193 +1,0 @@
-SIMPLE  =                    T / Standard FITS format                           BITPIX  =                    8 / Character data                                 NAXIS   =                    1 / Text string                                    NAXIS1  =                 6030 / Number of characters                           VOTMETA =                    T / Table metadata in VOTable format               EXTEND  =                    T / There are standard extensions                  COMMENT                                                                         COMMENT The data in this primary HDU consists of bytes which                    COMMENT comprise a VOTABLE document.                                            COMMENT The VOTable describes the metadata of the table contained               COMMENT in the following BINTABLE extension.                                    COMMENT Such a BINTABLE extension can be used on its own as a perfectly         COMMENT good table, but the information from this HDU may provide some          COMMENT useful additional metadata.                                             COMMENT There is one following BINTABLE.                                        NTABLE  =                    1 / Number of following BINTABLE HDUs              END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             <?xml version='1.0' encoding='UTF-8'?>
-<VOTABLE version='1.1'>
-<!--
- !  VOTable written by uk.ac.starlink.votable.FitsPlusTableWriter
- !  Describes BINTABLE extensions in following HDUs
- !-->
-<RESOURCE>
-<TABLE name="Joined" nrows="54">
-<PARAM arraysize="19" datatype="char" name="DATE-HDU" value="2013-02-13T20:18:20">
-<DESCRIPTION>Date of HDU creation (UTC)</DESCRIPTION>
-</PARAM>
-<PARAM arraysize="5" datatype="char" name="STILVERS" value="3.0-3">
-<DESCRIPTION>Version of STIL software</DESCRIPTION>
-</PARAM>
-<PARAM arraysize="42" datatype="char" name="STILCLAS" value="uk.ac.starlink.votable.FitsPlusTableWriter">
-<DESCRIPTION>Author class in STIL so</DESCRIPTION>
-</PARAM>
-<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
-<DESCRIPTION>Type of match which created this table</DESCRIPTION>
-</PARAM>
-<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
-<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
-</PARAM>
-<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
-<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
-</PARAM>
-<PARAM arraysize="33" datatype="char" name="First input table" value="2: sample_1.5_3.5_udf_masses.fits"/>
-<PARAM arraysize="20" datatype="char" name="Second input table" value="3: udf_complete.fits"/>
-<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
-<DESCRIPTION>Type of match which created this table</DESCRIPTION>
-</PARAM>
-<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
-<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
-</PARAM>
-<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
-<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
-</PARAM>
-<PARAM arraysize="20" datatype="char" name="First input table" value="1: udf_complete.fits"/>
-<PARAM arraysize="29" datatype="char" name="Second input table" value="2: sample_1.5_3.5_gs_all.fits"/>
-<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
-<DESCRIPTION>Type of match which created this table</DESCRIPTION>
-</PARAM>
-<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
-<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
-</PARAM>
-<PARAM arraysize="69" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables)">
-<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
-</PARAM>
-<PARAM arraysize="13" datatype="char" name="First input table" value="3: match(1,2)"/>
-<PARAM arraysize="18" datatype="char" name="Second input table" value="4: icd_IH_new.fits"/>
-<FIELD datatype="float" name="ID_1"/>
-<FIELD datatype="float" name="RA_1">
-<DESCRIPTION>($2)</DESCRIPTION>
-</FIELD>
-<FIELD datatype="float" name="DEC_1">
-<DESCRIPTION>($3)</DESCRIPTION>
-</FIELD>
-<FIELD datatype="float" name="Imag_1">
-<DESCRIPTION>($4)</DESCRIPTION>
-</FIELD>
-<FIELD datatype="float" name="Zmag_1">
-<DESCRIPTION>($5)</DESCRIPTION>
-</FIELD>
-<FIELD datatype="float" name="Jmag_1">
-<DESCRIPTION>($6)</DESCRIPTION>
-</FIELD>
-<FIELD datatype="float" name="Hmag_1">
-<DESCRIPTION>($7)</DESCRIPTION>
-</FIELD>
-<FIELD datatype="float" name="z_1">
-<DESCRIPTION>($9)</DESCRIPTION>
-</FIELD>
-<FIELD datatype="float" name="Mass">
-<DESCRIPTION>($10)</DESCRIPTION>
-</FIELD>
-<FIELD datatype="float" name="ICD_IH_1">
-<DESCRIPTION>($11)</DESCRIPTION>
-</FIELD>
-<FIELD datatype="float" name="ICD_IH_ERR_1">
-<DESCRIPTION>($12)</DESCRIPTION>
-</FIELD>
-<FIELD datatype="float" name="ston_I_1">
-<DESCRIPTION>($13)</DESCRIPTION>
-</FIELD>
-<FIELD datatype="float" name="PR_I">
-<DESCRIPTION>($14)</DESCRIPTION>
-</FIELD>
-<FIELD datatype="float" name="alpha_IH_1">
-<DESCRIPTION>($15)</DESCRIPTION>
-</FIELD>
-<FIELD datatype="float" name="ICD_ZH">
-<DESCRIPTION>($17)</DESCRIPTION>
-</FIELD>
-<FIELD datatype="float" name="ICD_ZH_ERR">
-<DESCRIPTION>($18)</DESCRIPTION>
-</FIELD>
-<FIELD datatype="float" name="ston_Z">
-<DESCRIPTION>($19)</DESCRIPTION>
-</FIELD>
-<FIELD datatype="float" name="PR_Z">
-<DESCRIPTION>($20)</DESCRIPTION>
-</FIELD>
-<FIELD datatype="float" name="alpha_ZH">
-<DESCRIPTION>($21)</DESCRIPTION>
-</FIELD>
-<FIELD datatype="float" name="ICD_JH">
-<DESCRIPTION>($23)</DESCRIPTION>
-</FIELD>
-<FIELD datatype="float" name="ICD_JH_ERR">
-<DESCRIPTION>($24)</DESCRIPTION>
-</FIELD>
-<FIELD datatype="float" name="ston_J">
-<DESCRIPTION>($25)</DESCRIPTION>
-</FIELD>
-<FIELD datatype="float" name="PR_J">
-<DESCRIPTION>($26)</DESCRIPTION>
-</FIELD>
-<FIELD datatype="float" name="alpha_JH">
-<DESCRIPTION>($27)</DESCRIPTION>
-</FIELD>
-<FIELD datatype="float" name="ICD_HH">
-<DESCRIPTION>($29)</DESCRIPTION>
-</FIELD>
-<FIELD datatype="float" name="ICD_HH_ERR">
-<DESCRIPTION>($30)</DESCRIPTION>
-</FIELD>
-<FIELD datatype="float" name="ston_H">
-<DESCRIPTION>($31)</DESCRIPTION>
-</FIELD>
-<FIELD datatype="float" name="PR_H">
-<DESCRIPTION>($32)</DESCRIPTION>
-</FIELD>
-<FIELD datatype="float" name="alpha_HH">
-<DESCRIPTION>($33)</DESCRIPTION>
-</FIELD>
-<FIELD datatype="double" name="ID_2"/>
-<FIELD datatype="double" name="RA_2"/>
-<FIELD datatype="double" name="DEC_2"/>
-<FIELD datatype="double" name="Imag_2"/>
-<FIELD datatype="double" name="Zmag_2"/>
-<FIELD datatype="double" name="Jmag_2"/>
-<FIELD datatype="double" name="Hmag_2"/>
-<FIELD datatype="double" name="z_2"/>
-<FIELD datatype="double" name="Separation" ucd="pos.angDistance" unit="arcsec">
-<DESCRIPTION>Distance between matched objects along a great circle</DESCRIPTION>
-</FIELD>
-<FIELD datatype="double" name="ID"/>
-<FIELD datatype="double" name="ICD_IH_2"/>
-<FIELD datatype="double" name="ICD_IH_ERR_2"/>
-<FIELD datatype="double" name="ston_I_2"/>
-<FIELD datatype="double" name="PR"/>
-<FIELD datatype="double" name="alpha_IH_2"/>
-<!-- Dummy VOTable - no DATA element -->
-</TABLE>
-</RESOURCE>
-</VOTABLE>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional table                            NAXIS1  =                  236 / width of table in bytes                        NAXIS2  =                   54 / number of rows in table                        PCOUNT  =                    0 / size of special data area                      GCOUNT  =                    1 / one data group                                 TFIELDS =                   44 / number of columns                              EXTNAME = 'Joined  '           / table name                                     TTYPE1  = 'ID_1    '           / label for column 1                             TFORM1  = 'E       '           / format for column 1                            TTYPE2  = 'RA_1    '           / label for column 2                             TFORM2  = 'E       '           / format for column 2                            TCOMM2  = '($2)    '                                                            TTYPE3  = 'DEC_1   '           / label for column 3                             TFORM3  = 'E       '           / format for column 3                            TCOMM3  = '($3)    '                                                            TTYPE4  = 'Imag_1  '           / label for column 4                             TFORM4  = 'E       '           / format for column 4                            TCOMM4  = '($4)    '                                                            TTYPE5  = 'Zmag_1  '           / label for column 5                             TFORM5  = 'E       '           / format for column 5                            TCOMM5  = '($5)    '                                                            TTYPE6  = 'Jmag_1  '           / label for column 6                             TFORM6  = 'E       '           / format for column 6                            TCOMM6  = '($6)    '                                                            TTYPE7  = 'Hmag_1  '           / label for column 7                             TFORM7  = 'E       '           / format for column 7                            TCOMM7  = '($7)    '                                                            TTYPE8  = 'z_1     '           / label for column 8                             TFORM8  = 'E       '           / format for column 8                            TCOMM8  = '($9)    '                                                            TTYPE9  = 'Mass    '           / label for column 9                             TFORM9  = 'E       '           / format for column 9                            TCOMM9  = '($10)   '                                                            TTYPE10 = 'ICD_IH_1'           / label for column 10                            TFORM10 = 'E       '           / format for column 10                           TCOMM10 = '($11)   '                                                            TTYPE11 = 'ICD_IH_ERR_1'       / label for column 11                            TFORM11 = 'E       '           / format for column 11                           TCOMM11 = '($12)   '                                                            TTYPE12 = 'ston_I_1'           / label for column 12                            TFORM12 = 'E       '           / format for column 12                           TCOMM12 = '($13)   '                                                            TTYPE13 = 'PR_I    '           / label for column 13                            TFORM13 = 'E       '           / format for column 13                           TCOMM13 = '($14)   '                                                            TTYPE14 = 'alpha_IH_1'         / label for column 14                            TFORM14 = 'E       '           / format for column 14                           TCOMM14 = '($15)   '                                                            TTYPE15 = 'ICD_ZH  '           / label for column 15                            TFORM15 = 'E       '           / format for column 15                           TCOMM15 = '($17)   '                                                            TTYPE16 = 'ICD_ZH_ERR'         / label for column 16                            TFORM16 = 'E       '           / format for column 16                           TCOMM16 = '($18)   '                                                            TTYPE17 = 'ston_Z  '           / label for column 17                            TFORM17 = 'E       '           / format for column 17                           TCOMM17 = '($19)   '                                                            TTYPE18 = 'PR_Z    '           / label for column 18                            TFORM18 = 'E       '           / format for column 18                           TCOMM18 = '($20)   '                                                            TTYPE19 = 'alpha_ZH'           / label for column 19                            TFORM19 = 'E       '           / format for column 19                           TCOMM19 = '($21)   '                                                            TTYPE20 = 'ICD_JH  '           / label for column 20                            TFORM20 = 'E       '           / format for column 20                           TCOMM20 = '($23)   '                                                            TTYPE21 = 'ICD_JH_ERR'         / label for column 21                            TFORM21 = 'E       '           / format for column 21                           TCOMM21 = '($24)   '                                                            TTYPE22 = 'ston_J  '           / label for column 22                            TFORM22 = 'E       '           / format for column 22                           TCOMM22 = '($25)   '                                                            TTYPE23 = 'PR_J    '           / label for column 23                            TFORM23 = 'E       '           / format for column 23                           TCOMM23 = '($26)   '                                                            TTYPE24 = 'alpha_JH'           / label for column 24                            TFORM24 = 'E       '           / format for column 24                           TCOMM24 = '($27)   '                                                            TTYPE25 = 'ICD_HH  '           / label for column 25                            TFORM25 = 'E       '           / format for column 25                           TCOMM25 = '($29)   '                                                            TTYPE26 = 'ICD_HH_ERR'         / label for column 26                            TFORM26 = 'E       '           / format for column 26                           TCOMM26 = '($30)   '                                                            TTYPE27 = 'ston_H  '           / label for column 27                            TFORM27 = 'E       '           / format for column 27                           TCOMM27 = '($31)   '                                                            TTYPE28 = 'PR_H    '           / label for column 28                            TFORM28 = 'E       '           / format for column 28                           TCOMM28 = '($32)   '                                                            TTYPE29 = 'alpha_HH'           / label for column 29                            TFORM29 = 'E       '           / format for column 29                           TCOMM29 = '($33)   '                                                            TTYPE30 = 'ID_2    '           / label for column 30                            TFORM30 = 'D       '           / format for column 30                           TTYPE31 = 'RA_2    '           / label for column 31                            TFORM31 = 'D       '           / format for column 31                           TTYPE32 = 'DEC_2   '           / label for column 32                            TFORM32 = 'D       '           / format for column 32                           TTYPE33 = 'Imag_2  '           / label for column 33                            TFORM33 = 'D       '           / format for column 33                           TTYPE34 = 'Zmag_2  '           / label for column 34                            TFORM34 = 'D       '           / format for column 34                           TTYPE35 = 'Jmag_2  '           / label for column 35                            TFORM35 = 'D       '           / format for column 35                           TTYPE36 = 'Hmag_2  '           / label for column 36                            TFORM36 = 'D       '           / format for column 36                           TTYPE37 = 'z_2     '           / label for column 37                            TFORM37 = 'D       '           / format for column 37                           TTYPE38 = 'Separation'         / label for column 38                            TFORM38 = 'D       '           / format for column 38                           TUNIT38 = 'arcsec  '           / units for column 38                            TCOMM38 = 'Distance between matched objects along a great circle'               TUCD38  = 'pos.angDistance'                                                     TTYPE39 = 'ID      '           / label for column 39                            TFORM39 = 'D       '           / format for column 39                           TTYPE40 = 'ICD_IH_2'           / label for column 40                            TFORM40 = 'D       '           / format for column 40                           TTYPE41 = 'ICD_IH_ERR_2'       / label for column 41                            TFORM41 = 'D       '           / format for column 41                           TTYPE42 = 'ston_I_2'           / label for column 42                            TFORM42 = 'D       '           / format for column 42                           TTYPE43 = 'PR      '           / label for column 43                            TFORM43 = 'D       '           / format for column 43                           TTYPE44 = 'alpha_IH_2'         / label for column 44                            TFORM44 = 'D       '           / format for column 44                           DATE-HDU= '2013-06-24T15:06:39' / Date of HDU creation (UTC)                    STILVERS= '3.0-3   '           / Version of STIL software                       STILCLAS= 'uk.ac.starlink.votable.FitsPlusTableWriter' / Author class in STIL soEND                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             E}¿ BTíƒ¡ﬁ\∂A…”±A…⁄rA∆w¶Aƒº£?¡ ¡K‚-<à9“GkBøA  ?q_ç;Ùá∏:Fx∆B]ﬂOA  ?ô}<6RÚ9ªS{B™§ãA  ?¢ìfªõèë:/d+BÃ≤áA  ?Ä  @»˛     @JíX—Rmã¿;Àñä†ï@9!È¬πQ@99TÊ`⁄|@8∫ôıãO,@8à9ﬁK¸„@ ·GÆz·?†·)≤§•5@»˛     ?ìD–-Wê?,ﬁ¸}ùj@bóPköOD@"      ?¯¸AË-ÉE=` BTπ)¡ﬁLtA…Û5A…)?A√√ÄA¡…?√◊
-I˙ã= +9‘2Blk9Ap  ?¡ßõ=“:	ZBf-Ap  ?‰dG< ^9–Ô Bß¿@Ap  ?¥0ªˇ–_9‚îfBœ≤Ap  ?Ä  @ÀjÄ    @Jó%,	sF¿;…éN‚º"@9)eµ8˜Á@9$†ûb⁄@8x¢ﬂ[5T@8>™ùLît?˚333333?áÜ}ŒÆ~π@ÀjÄ    ?ôÿ;y©?2ú,ÍP}s@X#Öì%ëS@*      @Æ⁄n⁄E@ BT∫õ¡ﬁD;A…eêA…Q´A∆Õ’Aƒ≠0?ƒºjM¢ìÛ=À9E-BáÉA   ?bﬁ<ºÄz:%Y˜B≈sA   ?êó≤<z$◊:'√Bîd¨A   ?¨‘ºˆ1:7ıóB¿õàA   ?Ä  @Ãß     @JóS∫í7¶¿;»áCí&@92ı´“_@9!¥#=@8◊gl›LB@8ïxØ=j¶@ ŒŸá+?¢˝% Sf∑@Ãß     ?òŸÍ∑¥Ñ?9P©b“
-"@W∂ΩV@(      ?¯Úi‚E8ê BT≤¡ﬁN÷AÃõ„A…ïﬁA¬•£A¡´?≈¬èK≥¿”;Ã√q9Ûº}B<'Aò  ?ÍÄŒ;ü(’:EÊBñﬁAò  ?·mQ;‹^>9Ø=˝BºfAò  ?ï,¡ºNø9‘løBÍËAò  ?Ä  @ÀÄ    @JñAB¿n¿;…⁄ê⁄Æ7@9èÜéW•@9tºŒQÉ@8[Áﬁ@8-W¢™Ôï?¯Ò©˚Álã?é√´Ë á@ÀÄ    ?ìˇQ}!¶ú?;‘∑‡xU∫@L∫#’˛r‰@3      @	]ﬂô& ÔD√Ä BTîﬂ¡ﬁ<ÍAÕgPAÀ’ÀA∆¯ A∆Ü	?«ÆL}∑J<c¬Ä:doEB>q∏A  ?©÷à<G“:mÇ	BàA  ?±ˇ∑ÄÅ|:aËtBØ…^A  ?âDâºWhU:–k
-B™™⁄A  ?Ä  @Õ”Ä    @JíõÌ0c¿;«ùcRµØ@9¿?Ãò¶S@9˙q]€}j@8Ú+ﬂ,bÔ@8”Ò›9)„?¯ºj~˘€#?ÇõuS‚Ö@Õ”Ä    ?îI9”Ix?K†é’ﬂeø@P8>lµ
-@$      @<"÷¶πD∞  BTùÑ¡ﬁ5ÓA∆OÓAƒé¯AæÔzAæ—2? üæKÄ©<◊◊m9ÚïBõ¯óAÄ  ?°®<ôDÈ:äîB^äAÄ  ?£.R<=8á9˛ºCü≈AÄ  ?Ü|èº+ ¥:A:)C4?AÄ  ?Ä  @Œ÷Ä    @Jì∞T«≤¿;∆æ Å/@@8«tàÔcå@8«kî∫S˝@7⁄`·bŒ/@7◊±ÎsKø?¯ºj~˘€#?ï¸œë@Œ÷Ä    ?ùÛÌq*ó«?6¥"ƒÊ!!@\‰ñ2‘@0      @w@ÔÅ÷ Dı¿ BTúä¡ﬁ=±A :˘A…~¬AƒIA¬üì?À•„LaE‚;ÀI9•≤BãXA   ?¢'∆:∫‘˙9Ìˆ˝B2mBA   ?ª‡F;v±≤9∂√ÁBıÕ»A   ?§Oªú∑á:	{˙CspA   ?Ä  @Õ—Ä    @Jìëwîå¿;«µˇ*ÌÍ@9>Òh3ƒH@9bÑ-sA@8{ı‰/√Q@8J¥iì?˝∫^5?|Ó?çÿºp$@Õ—Ä    ?Ñﬂ–_hFã?18o}6DU@Z}Ëõ⁄	@$      @®≤Î≈voEX BT§E¡ﬁR≠Aø~AæÆïA∫wA∫◊Ï?Ã¨L≥Ÿ <L"\7çúºCùsq@‡  ?h_I<,Ä7√‡§CK‡o@‡  ?àûÚ;áP7ü ÚC˝Î@‡  ?Å¥ZπÑ™π85ÌCÏI@@‡  ?Ä  @ x     @JîàéØZÃ¿; U¢…ƒ@7Ô˙Q·ºL@7ÌŸ€¯Û@7O°è?˚"@7Zû†+æ|?˘©˚ÁlãD?{	ädüè@ x     ?èáﬁïf≈>Ò,X=á‚Ÿ@}.Û¥Yñ˛@      ?¯º55œDà` BT£i¡ﬁ2SAœõéAŒ
-ÚA∆†A∆$¡?–£◊N§Ì›<&z:.\B0/!A   ?—Ÿå<X:=ç‚A˘Í—A   ?›µû;È…*:˙•B”±~A   ?âàÚªœãM:}¬HB‘ŒfA   ?Ä  @œ2     @Jîm@u;¿;∆Jl4‹Å@9Ã¨~ïrû@9°”ﬁ7N@8¡b¨_©@8¨‘T%<?˙I∫^5?}?âÕÒÈQrP@œ2     ?ñ÷‚	ÿ£?Cœ—3ÜÖ@P°e÷î@       @(!)2ÊEC@ BTóâ¡ﬁM/A∆ñèA≈¢AøÍ„Aæ;€?–£◊NM¸=M∫(8§<CfA   ?≤Âú<ﬁû<8¥_ÛBøS@A   ?Œì°;˛‡8≠VCÑÙ}A   ?¢ø_∫j†ø8˘¢ÏCùÇA   ?Ä  @Àl     @JíÒ&Hi%¿;…•–ﬂÅ@8¡°[<K<@8√7 Œ–µ@7ı?R¨±`@7¿lq?˛ä	ﬁ?pÀﬁok.@Àl     ?§)∫®Â?T õÛ››@k5åïzÆ•@       @A2Ú§⁄aD@ BTüÃ¡ﬁ*ËAÃB@AÀUùA∆¸AƒüÁ?–£◊NpP=Ç´f9´¨BêÜ@‡  ?ë®ß=)Ì9”ıáB9)â@‡  ?´ë ;~≥/9ØÁC ·Ô@‡  ?ù»ÔªHL:
-Õ~Cz·@‡  ?Ä  @–#¿    @Jì˘Z PÚ¿;≈\À≤ÒY@9áLIŸ@9©≈πBç`@8∆oãü@8ñP{\…É?˝S˜ŒŸá?ízûêY3@–#¿    ?π≥¸óD◊?-Õ¯ >ƒ@Z∆É}:4“@      ?˝êy“ê∆`E|∞ BT´Ä¡ﬁ\éA≈ÅAƒÕÊAøåPAøò”?‘ºjMWÚ=Ò{8ã“œC≠BA   ?y2¶<À†}8∏ÅBº˙iA   ?ï@;9U8°ÓCÄ ¯A   ?ÉNé∫û+A8ŸØC|QÿA   ?Ä  @…Ä    @JïoﬂãÏ2¿;Àë≠<Õ@8¶Î(≈ÄÑ@8†Á∂	Ã8@7Óë∞®:-@7Ô¯T“˙ï?¸Œ_o“?äãæ ¥#@…Ä    ?üyõad⁄B?«d›oDë@k)f–dÌ˝@       ?˚bÎ{™ëEÜ8 BTóÉ¡ﬁbËAÀnlAÀîA≈>WA∆äÅ?◊ŒŸKˆ=8:’¸BìsA  ?Z}˛=N;:$MƒB3ä/A  ?Ñ »<U≤:∫BŒ„úA  ?c=îºË[:àçYB™1íA  ?Ä  @»9     @Jíq√ë¿;Ã]îîw@9r≤_XÄ@9o£DÚ2@8£øóß@8«"çv/8?˚&Èx‘˝Ù?{sÎ	)@»9     ?•∏sï’?;∑{ã£ß@Z[~lpÌ@"      ?ˆ“y≠“tE9– BT•å¡ﬁL©A¡-∆AæxÛA∂ÇÊA≥€ù?Ÿ€#LÅPb>[I;89§C3√OA@  ?ÛÌu=ﬂ∆Ÿ8ÇSMC ±A@  @Hr<jïπ7ΩwåCˇ0ÈA@  ?∏=π«¨≈8ıeD(∞ñA@  ?Ä  @À€Ä    @Jî±lÙı·¿;…ïﬂb“@8≥ÆR@7ˆ%&:f@6Õ©ˇ?◊*@6y≤)Ä©t?˝`™d¬¯8?És˙Àƒ@À€Ä    ?Œ∞ëA|C?ä*ƒ~Ñ@p∆']=.@(      @
-˚Ä‚GÒ!D—¿ BTò ¡ﬁ:˝AƒTA¬cçAªòπAπª¸?‹ÌëO©∑	=≤M8Ó∏6BÍ(KA@  ?·Q2<ùøœ93mB©¨íA@  ?‚Èk;{.8ºNœCú+cA@  ?£S∫ÿó9]˚C∫à“A@  ?Ä  @ŒfÄ    @JìF¯‚’¿;«_Äôî@8Än˛”i¶@8|¬Æûã@7lT÷∫Ç
-@70SJH#?˝ökP∞Ú|?}ß1Vbû¡@ŒfÄ    ?•Ïx\›ÒÁ?ä™‡q¸@e≠J◊.@(      @	Dé‘KID»  BT¢¡ﬁ88A∆a∂A≈T§A¡ƒA¬π¢?ﬂ†N»Ö<à≤Q9"ßÁCï˚A   ?CË<<∫ﬁ9EáÎBº-“A   ?_¨Ï<œ/9BﬁçCJì A   ?kD>ª¶‡9ê]ÍC1Ú¶A   ?Ä  @ŒsÄ    @JîB¿ny¿;«Û9H @8”jÖÒ,@8À√‰hAT@8=(ıÑHq@8S(√_Í?¯¿Énóç?fßÔ!ÏÃ@ŒsÄ    ?≠=†fﬂg?!7Qú5Í5@i™¯7ßP@       ?ÚwuQ»EÜ BTØo¡ﬁaÎAÃ°¨AÃu“A«örA≈˜;?„S¯JûŸx=V≥89ìõ4B~«eA   ?ëT<€%ÿ9È-ÎB1#A   ?∂!$;©≤˚9∞ãËB≠Â@A   ?¢˜´ªõ}Ü9›kB–•A   ?Ä  @»[     @JïÌÌÆƒ§¿;Ã=EÏœ@9}'îS}é@9Öeƒˇº@8‰§È]&@8±cC†í?ˇXbM“Ú?€ÌÉÒÎ@»[     ?´÷eäL?+
-`√¸Á@WäÉ/Òé@       ?ˇPWGç{‡ESÄ BT¢ù¡ﬁ`îA ˘A√ïhAµ*UA±i(?„S¯L™Èﬁ<ÇBÃ7}@OBÃ›ú@¿  A/ó<Jÿ\7â4·C
-l1@¿  @¿^ã<i{6TîDÇXL@¿  ?÷∑ë∑f16ÎŸD«s@¿  ?Ä  @»ÁÄ    @JîSÆ”ΩÇ¿;Ãe]QÎ@9G–*…Y@8‚\˚÷@6•C@6-y›€uØ?˛Ω•ú‡v?Ämπ((ŒÄ@»ÁÄ    ?îTÃ1›ü?M§ÿ°!@bºø*¯ß@      @0“0HW%πE
-† BTòô¡ﬁAsA∆óÇAƒ»ﬁAΩß<AªvÜ?Ë¥9N)
-y=êÑX9#äﬂBÆ’¯A`  ?Ë¿õ=◊o9U¸B| A`  ?¯õ;H9µÃCU9¸A`  ?´ë"ª8J%9wQÀCÇ9rA`  ?Ä  @ÕSÄ    @Jì-nJ¿;».l˙’@8“}D˙@8øîc0…C@7≤≈wq√@7oÛUŸòë?˝á+J?w;j±ˆ)ª@ÕSÄ    ?∞ì àû®Ô?'Ú<1‹ÙÍ@_=n⁄W·@,      @
-∏Yt∂ÒNE– BT≤Ä¡ﬁBúA¡$Aø$æA∏súA∂@?Ô;dJ‹f¡=ÿV∫8jÿ9C	ëüAp  ?ÀQq=^€@8¡\dB ≈°Ap  ?›+∞<)?∂8n„|CúﬂÇAp  ?ß˙ö∫ôYC8ë_“C»â
-Ap  ?Ä  @ÕR     @JñPáÕø¿;»SJ)Ôæ@8#ÛF´e@8!>,ÇX@7	Îv¿Çê@6¡¿Å¡ ?ˇÁlãCïÅ?âñ>≈ºÓ@ÕR     ?¿≠—ÿ3∞A?√≈Yˇ⁄;@hTè√=∆§@.      @_·“ﬂ}E‡ BTµi¡ﬁE–A ¢ÁA »ßA∆+KAƒÇ{?Ô;dPAø<Ø'9qÑΩBûßA  ?åﬁT<Bõ˘9∞(*B50 A  ?≥0L;ˇ∆\9∞ÑΩBÿìËA  ?†JBªänÅ9– ;CK‹A  ?Ä  @Ã}     @Jñ≠ _¿;»πQ6S@9EÉ]0âj@9Jéuá√8@8¡Z%GY®@8ç‚äÓÄﬁ@ Oﬂ;dZ?kóp„@	©@Ã}     ?ù¯ﬁÈq?+öwO˙Ú@[ÿLÓ#˘H@$      ?˝â	
- 9*EÉ† BTÆÜ¡ﬁ`‡A—ÛA–‚„A…ÏTA«s?Úè\KHÒû<	cô:Î¢Aï˝‹A∞  ?≈Ãåª¢õ€;G<"A>¶âA∞  ?·-ÂπıÊ+;7eBZA∞  ?¥‹àΩUL];ÖbBGwÆA∞  ?Ä  @»ö     @Jï–Üï∞◊¿;Ã∑´c@:,HgÁ˜ü@:5Á (µ@9=“k~≥w@8ˆùóN™w?ˇ333333?õyÅ©´¢Ò@»ö     ?§:  ﬁœ?Tè™â?@@≈«qRÊr@,      @¡aÄ⁄x5EG  BTõ¡ﬁM«AÀ¨›AÃ)A Ω=A« Ô?˜
-=J¨Éﬁ=Uæ:≈GBï@HA   ?8˜o<¢˝
-:/¿B'«˛A   ?~XÀ;”PÓ:*»yBã$1A   ?Ω,&º	Õs:Ç_rBºﬁâA   ?Ä  @À     @Jì}˚Æa®¿;…∏’üf@9Çí•ùS•@9âÔ®€0@9aqíDâ…@8˝û˚B÷Í@õ•„S˜œ?fß‘ªYÆ@À     ?®ÃÇèπ?;6@[SÚ¨Ä@       ?Ú!≈dòAÎEê BT±ÿ¡ﬁA™A÷ü|AŒÔA¡ìﬂAΩet?˚ÖLÉ8∫<ﬂÃò:´ÅAo+A   Aª^<;E:ÇÚUA∞1¯A   @¥†];69x#îC¶›A   ?‹óÀ∫Ï~‡9jh:Cu/A   ?Ä  @ÕT     @Jñ;ƒ¿;»5DÖk@:§<ÏVñ?@:I±’*/@8%ﬂçŒÛ@7¢ûX•è?ˇVìu?Ä’Õ°Èû%@ÕT     ?¢=¯ÛíÔj?gSFg0ªÉ@4|'†§⁄˛@&      @.êﬁaDI  BTõ
-¡ﬁ*¸A…–A…I%A∆ÒÛAƒ|Y?˛˘€K´çì<ä∏Ä:iôoBZJA@  ?íPc<6U$:ëãúB
-0AA@  ?≤Oø;©h+:´ÁKBÖ|fA@  ?≥áπº±CU:JB±˝ΩA@  ?Ä  @–A@    @Jìa:≠z¯¿;≈_ÉÙÁ@8Ï@Qx j@9#óëÖ@8úÙó:EÄ@8XÑ›Ï∫@lãCïÅ?aÙõÒÙ¨¥@–A@    ?ì[1vmü∆?Liwßy#∑@R˛∫.êÅ€@(      @ n∆Ωò?:E)` BTò°¡ﬁGÃA…‘íA…unAƒ-A¡û~?˛˘€LjO<u∆ä9+~¿B¬µåA   ?π3…<Am=9c„~BpYA   ?ÿ¿<;ê"e9DÊiC"VwA   ?Øüªz9ë^ΩCO‹πA   ?Ä  @Ã<     @Jì7yÍ¿;»˘î´Ù@9'ÒSü!@9,á1Q–ê@8ﬁ}~yÊ@8-Øfï5\@ Å$›/?w≤è’^óx@Ã<     ?Üõ„k*L?"g-//C›@b„L|A@       @K›‰ã&-EÖ8 BT¶È¡ﬁaõA“íCAÀ›ÅAΩ5˝A∏˜≈@ bLÜM˚<v˜Æ8∫ŒDB0ﬁ·@¿  A+˙<ÑOﬂ8âmBeY‡@¿  @…ü,<Å∞Ω7
-òCÿ≈)@¿  ?·%=∏õä;7!9D.a¿@¿  ?Ä  @»ãÄ    @Jî›%	§ƒ¿;Ã3M4f9@:LÂXÃ⁄@@9–5Ã~hˇ@7•Ñk7-)@7ˆÄÁn?ˇÆz·GÆ?rHQ‰N¡G@»ãÄ    ?ñ¶ —_§⁄?! úN…c@PÙ†Ωn◊@      @/πﬁˇ¨ÓEÉ∏ BT≠¬¡ﬁ`JA…`#A∆üAæ”A∫ƒå@^5J∞n·= ;8ÍVπBã™8A0  @8á◊=-K˚9æ6Be◊ƒA0  @-Ω!<ûû8î§KCY—A0  ?Õ/§∫á∑ı8†ÛıCûqA0  ?Ä  @»„Ä    @Jï∏OgF`¿;Ã	Q∏Yx@9{Êø„@8Ó«<ı@7µ:èzÿ@7R"F∫,?@ I∫^5?}?|ëÚI÷‹¸@»„Ä    ?Ω3O}(ª.?'U`”B”◊@Z!y.∞˛°@&      @SA„}Dç@ BT¢A¡ﬁ1A÷TAœºòA√àvAº‘@
-JJl(≤=∫Ul::‹ßA¬ˆ@¿  AåB√=NKá9Us¶B3C@¿  A(=çv8.ùƒCO-œ@¿  @ 8cπ!vë8 *C‡Ü@¿  ?Ä  @œãÄ    @JîG‚Ì†Ç¿;∆"¬¢ß_@:!ÒµÎWˇ@:!ˆ)—@8QqT@1@7åë√·fô?ˇù≤-V?üah}∂H@@œãÄ    ?≥@@/µq?F«√çl°Q@B£å√Æ≥5@      @:Ω’†l,‡DU@ BTó\¡ﬁ+¿AÕJAÕV®AÃNAƒe◊@
-∞!LéZä=ô8ÜqB√#Ó@†  ?Õˇ<Ûæ)8Ó4eB^÷†@†  @G7<Ãπµ9&òB®∆^@†  @5û5∫/–$9íJCN}F@†  ?Ä  @–@    @JíÎíä±ü¿;≈wˇÎﬁ
-@9ôåﬁKóá@9ì¸ì:∫#@9Ä¥Ìb•Ñ@8â¿u0t?˙è\(ı¬è?|÷∫Ê√
-@–@    ?°á|ùŸ≥Ÿ?ˆè‚¿@`Æ˝{ç∑[@      @Wëå¿ˇJD¶` BTªŸ¡ﬁ6qA‹ÆxAÿ÷¨AÕœBA∆úS@¨N˚¢?˘_;/πA,%ÚA   @öbò>ƒ‰;˛S‘Aı´A   @≥¬B<˚ëÁ:~>BbNÎA   @='Pª{Âõ:iìBÌ@˛A   ?Ä  @ŒöÄ    @Jó{@Ë˛\¿;∆Œ0zO@;¢∂jv@;ô
-:bÙπ@9ßíy(Ü@8◊Ñ∫_B˘@“Ò©˚Ám?äòπvót@ŒöÄ    ?‡F#ó°®?u"Ã®OM@)dâﬂs_Õ@       @'b.zßD  BTùÇ¡ﬁ#sA¿-KA¿óµAø∂Aºé.@+JΩV<∞»G8vôﬂCÄtA  ?Nz<óÑ?8ôq1C=§A  ?à˙Œ<!
- 8äÇFCà‡ÌA  ?≥(∫K8Ã8«CÆY©A  ?Ä  @–†¿    @Jì∞5ΩQ/¿;ƒnVÜ@8/.ºd@8„&Q3µ@7‚¸Q=√@7è?}œ{∏@ëhr∞ ≈?r+h_R@–†¿    ?í¿¬ÎÖ“˘?µU⁄ÇD*@wŒ√ŒÄ@"      ?ı◊fXÅDí  BTö\¡ﬁ1€A«FA√º≥AæbAπ(Æ@+Q¢¥=ËÆ9ÌBóî¯A`  @…=π≈9a˙ƒBÑÍŸA`  ?Îå<ä—39CB7dA`  ?ﬁ éª™>9ÙC¶—~A`  ?Ä  @œã     @JìKçù¿;∆;oA◊;@8Ïl#‰íê@8„·¢2f@7≈2√+ [@7&47ç\ã@p£◊
-=q?yÍâl@œã     ?ƒÂTô·?$xˆ%` @[1ëÇh~@,      @§f˚Q≈Ds  BTúå¡ﬁ.A∆Ù≈A∆’ÖAƒ √A¿8Î@ÉKÅ/°<ò·ø8"&C0Ó@@¿  ?£ˇÜ<N'ô8B{‹B—õ˛@¿  ? ›j<CŸ∆8fe&C` •@¿  ?€ π…fD8~Ì[C®Œu@¿  ?Ä  @œÃÄ    @Jìë{ΩÊÄ¿;≈¬r÷∑1@8”¡`¬◊c@8¯û> Â@8}^Ìñ˝@8Àãr#.?˝Ö∏QÎÖ?j®òr.›±@œÃÄ    ?~‰“`«ãò>˝ﬂLr.„@pÜ^Ë>~|@      @ zOÈ°ÓDÿ† BTïÓ¡ﬁ9ˇAÃ„QAÕEAÀàõA≈ÕÅ@¬èK7~=V•8Ûı)Bßæp@¿  ?•u$<√R9vB@Ωî@¿  ?ÿd˘<Ÿt±9-¢∆Bµë™@¿  @®©∫¢-=9?C+/?@¿  ?Ä  @Œ-Ä    @JíΩ‚N>Q¿;«?ó≈Ñ@9íﬁs≤7@9ùÉ›C@9`¨F¿9ﬂ@8≥w/v
-)?˝◊
-=p£◊?îª3RqyB@Œ-Ä    ?¶¡dÕlõä?ø]˜PØA@^ﬂπ`º·—@      ?˝)∫ÅË@OEq  BT©	¡ﬁYjA…gVA…8LA∆“A¡Íö@1&ÈLx€U<Ñ∑8qxƒBÛt@¿  ?®Ñn;Ôòê8¢º^Bì<@¿  ?œV⁄;’’Ô8’û@CZp@¿  ?⁄®Œ∫0⁄8ø¶ﬂCw}G@¿  ?Ä  @…Ö     @Jï Ì∂Q`¿;À-<y-@9#,21,R@9@âXà˜@8πÍÁBÉÉ@87+3û2…@∫^5?|Ó?ìê°Ô©]@…Ö     ?è*2tÛ1?ß#ÛoN@d2M<,@      @ »y]„* Dà¿ BT£Ì¡ﬁ5˙Aæ8°AæIìAΩHAªK-@1€#KØXû<Îc8ÓõõCPœPA`  ?%ÒT<”5Œ9©öBˆ‚ÅA`  ?WjQ<éú˛9,⁄kCHM»A`  ?ù„Ëª◊È9]¸Cu¯ÉA`  ?Ä  @Œ€     @Jî}c-ÿ¿;∆øIVã'@7ÿª§–™3@7‚€Jb%ô@7≠'ó06=@7jÕRiÎg@I∫^5?}?óÕóNÚ&@Œ€     ?¢øø‰!è•?È)Œ‡n@s .ÅN∏‰@,      ?ÒÍ˙u1údD	  BTû,¡ﬁ+ÁAæà„AΩiWAπ´¿Aµ≤Ï@41Kù<õn7≈cCvA]A@  ?ΩÚŒ<õ«]7Ú]∞C#2§A@  ?◊ Ø<ﬂ_7ÙÅC¬ãA@  ?ﬁ ‰π≈∑i8ˇ±D›◊A@  ?Ä  @–=@    @Jì≈s<7ø¿;≈|¡Ú~7@7À‚'u§m@7œç™ïB‹@73Dj>Ì@6∂`˚@ª@¥9XbN?ÄÖÄ-ÀÖI@–=@    ?öœ-£CY>ıÒB£VπÁ@vàRﬁ~∑&@(      @p∏ ?SDƒ  BTïß¡ﬁ=.A–ñ˜AÕ)A√æÏA∫¿ @6E¢J∞=£/‰9-5ÄB~A   @‹y[=;⁄o9É"÷B‰ÖA   @¿π2<∫ã8~dDC@mA   @BzEπÎ5B8a†“C‘‹øA   ?Ä  @Œ$     @Jí¥¸ÃnŸ¿;«¶XƒΩ4@9Õ}á¨@9–UπÄn@8T¿éØ@7H&ª˚u*@ı¬è\(ˆ?°±YLÁ @Œ$     ?±aæÈnÓ?8©å—ß„@Kî^”Å|)@       @(;M˙Ç1D Ä BTÆ¡ﬁ%äA«míA«Ÿ,A…$FA«t≈@7æwKi»Z;‹¡:’BﬁA  ?÷O;∆Z:-ÈùBq!A  ?+€n;⁄#›:E)5Bûò©A  ?öo!º?„:§çCB∑◊A  ?Ä  @–n¿    @Jï¿åL©˝¿;ƒ±ÑqÍ(@8Ô -	i@8¸ï™d>Ø@9)Hô£˝@8ÔQÖLPS@ÉnóçP?èê	E±|@–n¿    ?ä+Ö¯_+◊?:dm÷"v{@dT˘Yi@"      ?Î_«k∞õrEX  BTôå¡ﬁR›A \≠A»|◊A√nËAæ~Ÿ@9˚ÁI5F≈>z˝Ö9¥‘ñB[ﬂZA`  ?»ﬂµ>/9„ùmB%¢A`  ?ÎÓI<òô¸9√3B–øNA`  ?Ï≤7ª§A09›—ÖC7«»A`  ?Ä  @ ®Ä    @Jì1T?¿; [‘<,◊@9+ãÃë@9)Oàë@8Q∫G‹Z@7∏*»∆¸÷@`Aâ7K«?§îUVúÜ¨@ ®Ä    ?“/øq64?5LÑ*ß˛,@Tû>9å.E@,      @„< Î%E'  BT©Ç¡ﬁNA√B≠A√uUA√Û¸A¿¿@;tºM
-Ωö;—∑89d€¡B˝hA@  ?CQ;⁄c9åÑBóÖÕA@  ?T@;±Û¨9Ès-B«∏∑A@  ?ÀÚÈªπ·À9ÍÖ1C$‚A@  ?Ä  @ÀKÄ    @Jï08¨Ô∏¿;…¬≠è‰@8\'=fgÈ@8eQUM^@8nì0˝Vã@7˜Ö:∏6@9XbM”?Ü‚È„Qﬁ@ÀKÄ    ?psœ÷~?*'1∑óX´@e•‚˝æ@*      ?ˆåÏm¬Eâ BT†¡ﬁdLA…îA…]eA« ¢A¬ê@=¬èL¿˝<cæ8Í•eB’Á@‡  ?ïó¢<Â9.(ôBÄ@ú@‡  ?∫·h;è‡§9<0zBÂåp@‡  ?Â\0∫ª/Ó9R«wC?ùﬁ@‡  ?Ä  @»Ä    @JîF‹]d¿;ÃâÉ°‡ê@9$wyx¶@95<≠Ôtø@8◊U–∆Ec@8D.¿âÃ@bM“Ò©¸?£ˇ.ΩÎç@»Ä    ?êß∏·Ò¥]?ö‰≈Ëö˛@cÚX‰3æ@      ?˛HyDlpE– BT∂≈¡ﬁEµA≈QAƒ¬ÎAøc¨AæÚ@BM”Pü∞w=ÿ«7e∫#C`î„@†  ?¶ï•<ÚïÛ7¨6iCƒè@†  ?ÕÆ=¸57}ÙC±@†  ?¢&πÀ‘7ùÔpCŒ\ì@†  ?Ä  @Ã}Ä    @JñÿùªgJ¿;»∂Çﬁl2@8®~5@8VÉZ˝	}@7ÚÀae©0@7æË	Äf´@	ãCïÅ%?yÿhÔÓuG@Ã}Ä    ?¨ƒ^#h÷>ÍË]∂ãÄæ@rG–ÂÏ•”@      ?˝Ô2∂ëo$Edp BT´˘¡ﬁWA…ŒA…≈A…_*A≈¶¸@Ep§L˚˚;ŸÄ@9KÙSB–˝KA   ?Wë;÷‚ﬁ9zb–B|%NA   ?áîa;õî:9†„lB≥-A   ?Ã,ﬂªP59≥7C	:GA   ?Ä  @…øÄ    @Jï˝≈¿; /Ö@9*`–Õ@9˜!)pg@9§ÇiúÍ@8´Ω√fÈÊ@©˚ÁlãD?å≥s‹p™ò@…øÄ    ?í Gúÿ5?'3§∫V/@cdq’Fáæ@       ?ı¢(◊Œ◊>DÎ` BT•N¡ﬁ@ÔAŒ©AÃ’ÛA…oœAƒBÀ@F5?I√Ê0;¨Dµ9∞ÌRB]l0A   ?◊≈I<
-±C9ºÖ'BÌ·A   ?ÿ˛<*ó<:√ïB£*äA   ?Ì“>ªC˜˘9ÓΩ&C+yA   ?Ä  @Õ1Ä    @Jî©⁄Y}J¿;»ˆã8@9¬ Ãnr@9ÿË}h@94ïDÍ⁄@8åõËQ@/üæv…?Ü¬1πñxS@Õ1Ä    ?á÷ç¨v`?6¯Îò¢{;@Tıc%¿7@       @uÒΩ€5E_@ BT≤6¡ﬁSˇAÀèAÀﬁAÀ!jA∆Õp@HìuLñ&=%C
-9ßí@Bê´eA  ?hÈ=Ó∞9˚g˘B"Æ˛A  ?ïbÇ<1k≠:E˝BneA  ?‹4Nª∆±#:RBŒÕ9A  ?Ä  @ *Ä    @JñFıá÷˘¿; Õ?πS@9\≤?óÿj@9s€sp @9Pz/1v@8ø∑6õ≤@“Ò©˚Ám?ï6˜.l≥√@ *Ä    ?∞WL`Ë™?,åoπﬁ»#@Z∑óØàà@"      ?˜nK/gönEc  BT§Ç¡ﬁUA≈öA√æøA¿»∂Aº+Æ@J-M(FF<Q◊,8URZB˜ï.A  ?…DÇ<Aê%8ònÊB¨yA  ?‰˚Á<sÇô8wôC1ÛîA  ?Ì˜g∫*¥à8òÑ’Cñw@A  ?Ä  @ 3     @Jîêæ'¿; Øˆ”0î@8íı∏¢„@8êâ˜¬»&@8∑RÄ'@7á…À%ö‘@^5?|Ìë?èdEÀP∆@ 3     ?ïÃ&)ÇÒu?
-“öõ¯NÃ@f*m™XÍπ@"      @∑zì≤ÇD√` BTîg¡ﬁ<_A“€AœÚÙAÃ∏πA«⁄F@J-KÜ‹9<TY˜:kõBo*A   ?Ïcÿ<srÒ:>≤€A◊ã|A   ?Ùà'<©π:=ù„BjÓ‹A   ?Á˙1ª˝˛Å:y
-}BƒÍA   ?Ä  @Õ·     @Jíå˛Ä£ˇ¿;«ãÒ:j_@:4ABÔ≠ë@:é°'˜N@9ë˚ﬁËk@8ı£Yçö@Vìu?àÂÁﬂ(l@Õ·     ?ãj‹2Ω¸∞?CÛJ‚P@J•Ä§Q‹@       @º—tßE@¿ BTµy¡ﬁLkA—kdA—JsAÕJqA«ø;@RM”J¬Në<áœ»9‚VìBz;A   ?⁄Ú}<îÛ`:]bA∑i•A   @ñK;ô¡ä:mÅπBDÔüA   ?ˇY£ªŒﬁ3:}B√_¿A   ?Ä  @ÀU     @JñØ&…òe¿;…çn,R@:AÉ@:CAws@9ûºÁ 8•@8Úa˜ñœÊ@I∫^5??pBT•¯√g@ÀU     ?á]µÜç&„?=„Ê¢j{≤@N1ú(Ññn@       @4ÂcvÎEÖ» BT´Ó¡ﬁb5A∆B A∆ ÃA∆EÕA≈3*@UëhL:u<LgÃ8¥·C2©a@¿  ?çü<3/8œc·B⁄D¨@¿  ?<∑…<Lë9
-¥˙CÓ@¿  ?òE∫∑°Ÿ9/IC"ã@¿  ?Ä  @»P     @Jï}…Yz∆¿;ÃFõ≈√ƒ@8œ/e˘M@8◊	TﬂÕ®@8¡◊∂Z¶á@8ö8æ?CÃ@	Ö∏QÎÖ?nƒ^%U¿@»P     ?¶¥ŸÂ‚L'?~AÒdi÷@m\ËgŸîB@      ?ÎpAî=1NEpP BTú<¡ﬁYÀA∆ß^A∆ÄÓA≈çÖA¡‰ @Xı√Kp4˚<A´µ8ã⁄|CóÈ@‡  ?\19<,”¸8¥˚
-B¥kä@‡  ?áõ<ÇŒ8˙°fCÈf@‡  ?¬›∏∫öà9K•CZ|8@‡  ?Ä  @…àÄ    @Jìáz≥$Ö¿;À9PÉ¶@8”Lœ‡Ì/@8ËB2!tÃ@8≥¯Œ˝«@87™oJÎ´@	ffffff?o“Ø´¸•@…àÄ    ?•'Ò+B∞í?fõ›—◊ˇ@l,VüÂ@      ?ı0Í%,E<D©  BTòI¡ﬁ.˛A…<[A»ÀA»™A∆≠¢@^JT›Ë<9-9¸•≈B´,´@‡  ?3%8;ÄŒn:¢≠BJÁ]@‡  ?_è}:¥N‚: ÓyB§]Æ@‡  ?¶˛#ªıU0:v„äB∆(@‡  ?Ä  @œÌ     @Jì	 π¥¿;≈ﬂ◊kå@@8÷6¨Vπ@8Ô+$uD@8m¿ÒHz@8,„t°Æ	@
-Ö∏QÎÖ?~ˆ¨ÄÙ9\@œÌ     ?ëoNë˜[?8Z≥Ñ®p@_Ï:EÕ@      ?Úü]¢J™∏D|@ BT®"¡ﬁ.‰AÕiËAÃé†A ≤áA∆;e@_æwJOàê<{j:/°¿BOèA  ?ùD;ù%:QYB«(A  ?∞NÒ;√E:o¶#BoÿnA  ?Ÿ?ª˙œ:ô>4Bæ≤ A  ?Ä  @œ Ä    @JïV¶’¬¿;≈›tk@9õDÃé%≠@9∏∞I˘@9SŸŒæƒï@8¡Y5g’@	óçOﬂ;d?°QÖ»2”ç@œ Ä    ?çá«wã§?A>Lı¿1^@Sπ<ﬁ∞@"      ?ˇËPH_«æ                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
