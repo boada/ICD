@@ -1,5 +1,14 @@
+# ignore all of this crap
 *.pyc
 .DS_Store
-sandbox/*
 results/*
 samples/*
+sandbox/*
+*.fits
+
+# but not the python files
+!sandbox/*.py
+!sandbox/plot_snippets/*.py
+!sandbox/legacy_plot_code/*.py
+!sandbox/lowerSN/*.py
+
