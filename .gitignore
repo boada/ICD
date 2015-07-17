@@ -5,10 +5,14 @@ results/*
 samples/*
 sandbox/*
 *.fits
+*.swp
 
 # but not the python files
 !sandbox/*.py
+!sandbox/plot_snippets
 !sandbox/plot_snippets/*.py
+!sandbox/legacy_plot_code
 !sandbox/legacy_plot_code/*.py
+!sandbox/lowerSN
 !sandbox/lowerSN/*.py
 
